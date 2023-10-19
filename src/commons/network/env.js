@@ -1,0 +1,6 @@
+export default {
+  // ASSETS
+  REACT_APP_BASE_URL_CONTEXT: process.env.REACT_APP_BASE_URL_CONTEXT,
+  // APP CTX
+  REACT_APP_CTX: process.env.PRODUCTION_DOMAIN_URL,
+}

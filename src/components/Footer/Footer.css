@@ -1,0 +1,83 @@
+.footer {
+  background: linear-gradient(0deg, rgb(11, 66, 32) 7%, rgb(22, 131, 63) 77%);
+  position: relative;
+}
+
+.footer .pleca {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 20px;
+  background-color: #006341;
+}
+
+.footer .footer-container {
+  padding: 50px 30px 30px;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-container {
+    width: 100%;
+    padding: 50px 20px 20px;
+  }
+}
+
+.footer .footer-container .column-footer {
+  margin-bottom: 30px;
+}
+
+.footer .footer-container .column-footer img {
+  max-width: 250px;
+}
+
+.footer .footer-container .column-footer .title-column {
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.footer .footer-container .nav-link {
+  color: white;
+  font-size: 22px;
+  text-transform: capitalize;
+  transition: 0.35s all ease-in-out;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-container .nav-link i {
+  margin-right: 15px;
+}
+
+.footer .footer-container .nav-link p {
+  margin: 0;
+}
+
+.footer .footer-container .nav-link:focus {
+  color: #006341;
+}
+
+.footer .footer-container .nav-link:hover {
+  box-shadow: inset 0 -3px 0 #fff;
+}
+
+.footer hr {
+  color: white;
+}
+
+.footer small {
+  padding: 10px 40px 40px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+/*# sourceMappingURL=footer.css.map */
