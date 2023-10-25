@@ -2,6 +2,8 @@ const {merge} = require('webpack-merge')
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin')
 const commonConfig = require('./webpack.common')
 const packageJson = require('../package.json')
+const RemovePlugin = require('remove-files-webpack-plugin')
+const FileManagerPlugin = require('filemanager-webpack-plugin')
 
 const prodConfig = {
   mode: 'production',
@@ -19,6 +21,12 @@ const prodConfig = {
       },
       shared: packageJson.dependencies
       // shared: ['react', 'react-dom']
+    }),
+    new RemovePlugin({
+      before: { test: [{ folder: './src/main/webapp/', method: () => true }], exclude: ['./src/main/webapp/readme.txt'], log: false }
+    }),
+    new FileManagerPlugin({
+      events: { onEnd: { copy: [{ source: './dist', destination: './src/main/webapp' }] } }
     })
   ]
 }
