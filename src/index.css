@@ -1,23 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Playfair+Display:400,500,600,700&display=swap");
 @import "./commons/assets/css/icons/fontawesome/webfonts/all.min.css";
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-@font-face {
-  font-family: "AvenirNextLTPro-Regular";
-  src: url("./commons/assets/css/fonts/AvenirNextLTRegular/AvenirNextLTRegular.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextLTRegular/AvenirNextLTRegular.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextLTRegular/AvenirNextLTRegular.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextLTRegular/AvenirNextLTRegular.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextLTRegular/AvenirNextLTRegular.ttf") format("ttf");
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.7;
-  letter-spacing: normal
-}
-
-@font-face {
-  font-family: "AvenirNextLTPro-Medium";
-  src: url("./commons/assets/css/fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal
-}
 
 @font-face {
   font-family: "AvenirLTPro-35Light";
@@ -34,22 +17,8 @@
 }
 
 @font-face {
-  font-family: "AvenirNextLTPro-Demi";
-  src: url("./commons/assets/css/fonts/AvenirNextDemi/AvenirNextDemi.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextDemi/AvenirNextDemi.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextDemi/AvenirNextDemi.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextDemi/AvenirNextDemi.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextDemi/AvenirNextDemi.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
   font-family: "AvenirNextLTPro-Condensed";
   src: url("./commons/assets/css/fonts/AvenirNextLTProCondensed/AvenirNextLTPro-Cn.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextLTProCondensed/AvenirNextLTPro-Cn.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextLTProCondensed/AvenirNextLTPro-Cn.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextLTProCondensed/AvenirNextLTPro-Cn.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextLTProCondensed/AvenirNextLTPro-Cn.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
-  font-family: "AvenirNextLTPro-Bold";
-  src: url("./commons/assets/css/fonts/AvenirNextLTBold/AvenirNextLTBold.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextLTBold/AvenirNextLTBold.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextLTBold/AvenirNextLTBold.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextLTBold/AvenirNextLTBold.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextLTBold/AvenirNextLTBold.ttf") format("ttf");
   font-weight: normal;
   font-style: normal
 }
@@ -106,13 +75,6 @@
 @font-face {
   font-family: "AzoSans-Italic";
   src: url("./commons/assets/css/fonts/AzoSans-Italic/AzoSans-Italic.woff") format("woff"), url("./commons/assets/css/fonts/AzoSans-Italic/AzoSans-Italic.eot") format("eot"), url("./commons/assets/css/fonts/AzoSans-Italic/AzoSans-Italic.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
-  font-family: "AzoSans-Medium";
-  src: url("./commons/assets/css/fonts/AzoSans-Medium/AzoSans-Medium.woff") format("woff"), url("./commons/assets/css/fonts/AzoSans-Medium/AzoSans-Medium.eot") format("eot"), url("./commons/assets/css/fonts/AzoSans-Medium/AzoSans-Medium.ttf") format("ttf");
   font-weight: normal;
   font-style: normal
 }
@@ -139,23 +101,6 @@
 }
 
 @font-face {
-  font-family: "AvenirNextLTPro-Regular";
-  src: url("./commons/assets/css/fonts/AvenirNextLTRegular/AvenirNextLTRegular.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextLTRegular/AvenirNextLTRegular.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextLTRegular/AvenirNextLTRegular.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextLTRegular/AvenirNextLTRegular.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextLTRegular/AvenirNextLTRegular.ttf") format("ttf");
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.7;
-  letter-spacing: normal
-}
-
-@font-face {
-  font-family: "AvenirNextLTPro-Medium";
-  src: url("./commons/assets/css/fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextLTPro-Medium/AvenirNextLTPro-Medium.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
   font-family: "AvenirLTPro-35Light";
   src: url("./commons/assets/css/fonts/AvenirNextLTLight/AvenirNextLTLight.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextLTLight/AvenirNextLTLight.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextLTLight/AvenirNextLTLight.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextLTLight/AvenirNextLTLight.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextLTLight/AvenirNextLTLight.ttf") format("ttf");
   font-weight: normal;
@@ -170,22 +115,8 @@
 }
 
 @font-face {
-  font-family: "AvenirNextLTPro-Demi";
-  src: url("./commons/assets/css/fonts/AvenirNextDemi/AvenirNextDemi.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextDemi/AvenirNextDemi.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextDemi/AvenirNextDemi.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextDemi/AvenirNextDemi.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextDemi/AvenirNextDemi.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
   font-family: "AvenirNextLTPro-Condensed";
   src: url("./commons/assets/css/fonts/AvenirNextLTProCondensed/AvenirNextLTPro-Cn.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextLTProCondensed/AvenirNextLTPro-Cn.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextLTProCondensed/AvenirNextLTPro-Cn.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextLTProCondensed/AvenirNextLTPro-Cn.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextLTProCondensed/AvenirNextLTPro-Cn.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
-  font-family: "AvenirNextLTPro-Bold";
-  src: url("./commons/assets/css/fonts/AvenirNextLTBold/AvenirNextLTBold.woff2") format("woff2"), url("./commons/assets/css/fonts/AvenirNextLTBold/AvenirNextLTBold.woff") format("woff"), url("./commons/assets/css/fonts/AvenirNextLTBold/AvenirNextLTBold.otf") format("otf"), url("./commons/assets/css/fonts/AvenirNextLTBold/AvenirNextLTBold.eot") format("eot"), url("./commons/assets/css/fonts/AvenirNextLTBold/AvenirNextLTBold.ttf") format("ttf");
   font-weight: normal;
   font-style: normal
 }
@@ -242,13 +173,6 @@
 @font-face {
   font-family: "AzoSans-Italic";
   src: url("./commons/assets/css/fonts/AzoSans-Italic/AzoSans-Italic.woff") format("woff"), url("./commons/assets/css/fonts/AzoSans-Italic/AzoSans-Italic.eot") format("eot"), url("./commons/assets/css/fonts/AzoSans-Italic/AzoSans-Italic.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal
-}
-
-@font-face {
-  font-family: "AzoSans-Medium";
-  src: url("./commons/assets/css/fonts/AzoSans-Medium/AzoSans-Medium.woff") format("woff"), url("./commons/assets/css/fonts/AzoSans-Medium/AzoSans-Medium.eot") format("eot"), url("./commons/assets/css/fonts/AzoSans-Medium/AzoSans-Medium.ttf") format("ttf");
   font-weight: normal;
   font-style: normal
 }

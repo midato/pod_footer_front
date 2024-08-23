@@ -13,7 +13,8 @@
     "test:suit": "react-scripts test --watchAll=false",
     "lint": "eslint src",
     "sonar": "sonar-scanner",
-    "webpack:test": "webpack --config test/webpack.test.config.js"
+    "webpack:test": "webpack --config test/webpack.test.config.js",
+    "sonarQube": "E:\\Desarrollos\\Programas\\sonar-scanner-cli-5.0.0.2966-windows\\sonar-scanner-5.0.0.2966-windows\\bin\\sonar-scanner.bat -D\"sonar.projectKey=pod_footer_front\" -D\"sonar.sources=src\" -D\"sonar.host.url=http://10.57.113.51:9000\" -D\"sonar.login=93869941ae38422540785bba32846aeb086058f9\" -D\"sonar.javascript.lcov.reportPaths=coverage/lcov.info\" -D\"sonar.coverage.exclusions=**/*Test.ts,**/*Spec.ts,**/*test.ts,**/*spec.ts\" -D\"sonar.sourceEncoding=UTF-8\""
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

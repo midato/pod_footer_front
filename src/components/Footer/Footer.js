@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 
-/*COMPONENTE DE FOOTER */
+// Componente de Footer
 export const Footer = () => {
   return (
     <footer
