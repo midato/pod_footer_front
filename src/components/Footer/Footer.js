@@ -6,6 +6,7 @@ export const Footer = () => {
   return (
     <footer
       data-testid="footer"
+      data-version="1.0.1"
       className="footer">
       <span className="pleca"></span>
       <hr/>
