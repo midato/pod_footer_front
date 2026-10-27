@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, unmountComponentAtNode } from 'react-dom'
 import { act } from 'react-dom/test-utils'
-import { screen } from '@testing-library/dom'
+import { screen } from '@testing-library/react'
 import App from './App'
 
 describe('pruebas de APPJS', () => {
